@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>catchgift game</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/b5069a4a5d.js"
+			crossorigin="anonymous"
+		></script>
+
+		<link rel="stylesheet" href="style.css" />
+		<script type="module" src="src/main.js" defer></script>
+	</head>
+	<body>
+		<section class="start">
+			<h1 class="start__head">catchpresent <br />game</h1>
+			<img src="img/start_tree.png" alt="christmas tree" />
+			<button class="start__button">start</button>
+		</section>
+		<section class="game">
+			<header class="game__header">
+				<div class="game__score">
+					<img src="img/header_gift.png" alt="gift" />
+					<span class="game__score__count">10</span>
+				</div>
+				<div class="game__timer">
+					<img src="img/header_timer.png" alt="timer" />
+					<span class="game__timer__time">0:00</span>
+				</div>
+				<div class="game__button">
+					<i class="fa-solid fa-stop"></i>
+				</div>
+			</header>
+			<section class="game__field"></section>
+		</section>
+		<section class="pop-up pop-up--hide">
+			<span class="pop-up__message">hello</span>
+			<span class="pop-up__image"></span>
+			<button class="pop-up__refresh">
+				<i class="fa-solid fa-rotate-right"></i>
+			</button>
+		</section>
+	</body>
+</html>
