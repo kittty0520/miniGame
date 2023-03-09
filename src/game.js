@@ -2,12 +2,14 @@
 import { Field, ItemType } from './field.js';
 import * as sound from './sound.js';
 
+// 객체의 프로퍼티를 동결화
 export const Reason = Object.freeze({
 	win: 'win',
 	lose: 'lose',
 	cancel: 'cancel',
 });
 
+// Builder 패턴
 export class GameBuilder {
 	gameDuration(duration) {
 		this.gameDuration = duration;
