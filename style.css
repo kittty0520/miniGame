@@ -50,6 +50,9 @@ button {
 	border: none;
 	outline: none;
 }
+.container {
+	margin-top: 40px;
+}
 .start {
 	position: absolute;
 	left: 50%;
